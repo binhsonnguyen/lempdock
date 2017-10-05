@@ -64,6 +64,25 @@ MYSQL_ROOT_PASSWORD=root
 
 ```
 
+Cấu hình db và url cho app php, tùy theo framework mà bạn đang sử dụng, đây là mẫy `.env` cho laravel
+
+```text
+APP_NAME=Laravel
+APP_ENV=local
+APP_KEY=
+APP_DEBUG=true
+APP_LOG_LEVEL=debug
+APP_URL=http://localhost:4000
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=default
+DB_USERNAME=default
+DB_PASSWORD=secret
+
+```
+
 Chạy các container lên và sử dụng
 
 ```bash
