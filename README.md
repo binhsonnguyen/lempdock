@@ -64,6 +64,13 @@ MYSQL_ROOT_PASSWORD=root
 
 ```
 
+
+Cấu hình nginx bằng cách tạo ra file vhost.conf trong thư mục web.conf, có thể sử dụng example có sẵn:
+
+```bash
+~/awesome-project/lempdock $ cp web.conf/nginx.conf.example web.conf/nginx.conf
+```
+
 Cấu hình db và url cho app php, tùy theo framework mà bạn đang sử dụng, đây là mẫy `.env` cho laravel
 
 ```text

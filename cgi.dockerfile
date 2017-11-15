@@ -9,3 +9,6 @@ RUN docker-php-ext-install mcrypt pdo pdo_mysql
 RUN yes | pecl install xdebug && docker-php-ext-enable xdebug
 
 ADD xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini
+
+COPY conf.d/* /usr/local/etc/php/conf.d/
+
