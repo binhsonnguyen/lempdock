@@ -1,4 +1,4 @@
 .idea
 logs
 .env
-web.conf/vhost.conf
+web.conf/nginx.conf
