@@ -1,4 +1,5 @@
 .idea
 logs
 .env
-web.conf/nginx.conf
+web.conf/*.conf
+cgi.conf/*.ini
